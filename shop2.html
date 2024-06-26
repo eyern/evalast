@@ -21,25 +21,33 @@
 
 <body>
   <header>
-    <a href="index.html" class="logo"><img src="img/logo1.png" alt="" class="logo" /></a>
+    <a href="index.html" class="logo"><img src="img/logo1.png" alt="" class="logo"></a>
     <nav>
-      <ul id="navbar">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="shop.html" class="active">Shop</a></li>
-        <li><a href="blog.html">News/Promotions</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="contact.html">Contact</a></li>
-        <li id="lg-bag">
-          <a href="cart.html"><i class="fa fa-bag-shopping"></i></a>
-        </li>
-        <a href="#" id="close"><i class="fa-solid fa-xmark"></i></a>
-      </ul>
+        <ul id="navbar">
+            <li><a href="index.html" class="active">Home</a></li>
+            <div class="dropdown">
+                <button class="dropbtn">Shop 
+                  <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                  <a href="shop.html">All Categories</a>
+                  <a href="motorcycles.html">Motorcycles</a>
+                  <a href="safety.html">Helmets & Safety Gear</a>
+                  <a href="dash.html">Dashboards</a>
+                  <a href="muff.html">Mufflers</a>
+                  <a href="spare.html">Spare Parts</a>
+                </div>
+              </div>
+            <li><a href="blog.html">News/Promotions</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <a href="#" id="close"><i class="fa-solid fa-xmark"></i></a>
+        </ul>
     </nav>
     <div id="mobile">
-      <a href="cart.html"><i class="fa fa-bag-shopping"></i></a>
-      <i id="bar" class="fas fa-outdent"></i>
+        <i id="bar" class="fas fa-outdent"></i>
     </div>
-  </header>
+</header>
 
   <!-- ===================== -->
   <!--    P-Header Section   -->
@@ -48,15 +56,19 @@
   <section id="page-header">
     <h2>#shopfromhome</h2>
 
-    <p>Save up to 50% off!</p>
   </section>
+
+  <div class="search">
+    <h8>All Products</h8>
+    <input type="text" name="" id="find" placeholder="search products....." onkeyup="search()">
+    </div>
 
   <!-- ===================== -->
   <!--    Products Section   -->
   <!-- ===================== -->
   <section id="product1" class="section-p1">
     <div class="pro-container">
-      <div class="pro" onclick="window.location.href='sproduct.html';">
+      <div class="pro">
         <img src="img/products/n21.jpg" alt="" />
         <div class="des">
           <span>in stock</span>
@@ -237,7 +249,7 @@
         <img src="img/products/n32.jpg" alt="" />
         <div class="des">
           <span>in stock</span>
-          <h5>SEAT</h5>
+          <h5>KUGA SEAT</h5>
           <div class="star">
             <i class="fas fa-star"></i>
             <i class="fas fa-star"></i>
@@ -245,7 +257,7 @@
             <i class="fa-solid fa-star-half-stroke"></i>
             <i class="fa-regular fa-star"></i>
           </div>
-          <h4>ksh 4,250</h4>
+          <h4>ksh 4,300</h4>
           <a href="https://wa.link/ff3ebk"><i class="fa-solid fa-cart-shopping cart"></i></a>
         </div>
       </div>
@@ -309,7 +321,7 @@
             <i class="fa-regular fa-star"></i>
             <i class="fa-regular fa-star"></i>
           </div>
-          <h4>ksh 1,600</h4>
+          <h4>ksh 1,800</h4>
           <a href="https://wa.link/ff3ebk"><i class="fa-solid fa-cart-shopping cart"></i></a>
         </div>
       </div>
@@ -341,7 +353,23 @@
             <i class="fa-regular fa-star"></i>
             <i class="fa-regular fa-star"></i>
           </div>
-          <h4>ksh 4,500</h4>
+          <h4>ksh 5,000</h4>
+          <a href="https://wa.link/ff3ebk"><i class="fa-solid fa-cart-shopping cart"></i></a>
+        </div>
+      </div>
+      <div class="pro">
+        <img src="img/products/n124.jpg" alt="" />
+        <div class="des">
+          <span>in stock</span>
+          <h5>DIGITAL DASHBOARD</h5>
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+          <h4>ksh 5,500</h4>
           <a href="https://wa.link/ff3ebk"><i class="fa-solid fa-cart-shopping cart"></i></a>
         </div>
       </div>
@@ -394,6 +422,22 @@
         </div>
       </div>
       <div class="pro">
+        <img src="img/products/n122.png" alt="" />
+        <div class="des">
+          <span>in stock</span>
+          <h5>HORN </h5>
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+          <h4>ksh 600 </h4>
+          <a href="https://wa.link/ff3ebk"><i class="fa-solid fa-cart-shopping cart"></i></a>
+        </div>
+      </div>
+      <div class="pro">
         <img src="img/products/n42.jpg" alt="" />
         <div class="des">
           <span>in stock</span>
@@ -438,6 +482,22 @@
             <i class="fa-regular fa-star"></i>
           </div>
           <h4>ksh 2,500</h4>
+          <a href="https://wa.link/ff3ebk"><i class="fa-solid fa-cart-shopping cart"></i></a>
+        </div>
+      </div>
+      <div class="pro">
+        <img src="img/products/n123.jpg" alt="" />
+        <div class="des">
+          <span>in stock</span>
+          <h5>BATTERY BELT </h5>
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+          <h4>ksh 75 </h4>
           <a href="https://wa.link/ff3ebk"><i class="fa-solid fa-cart-shopping cart"></i></a>
         </div>
       </div>
@@ -533,7 +593,7 @@
             <i class="fa-regular fa-star"></i>
             <i class="fa-regular fa-star"></i>
           </div>
-          <h4>ksh 650</h4>
+          <h4>ksh 700</h4>
           <a href="https://wa.link/ff3ebk"><i class="fa-solid fa-cart-shopping cart"></i></a>
         </div>
       </div>
@@ -597,7 +657,7 @@
             <i class="fa-regular fa-star"></i>
             <i class="fa-regular fa-star"></i>
           </div>
-          <h4>ksh 600</h4>
+          <h4>ksh 650</h4>
           <a href="https://wa.link/ff3ebk"><i class="fa-solid fa-cart-shopping cart"></i></a>
         </div>
       </div>
@@ -677,7 +737,7 @@
             <i class="fa-regular fa-star"></i>
             <i class="fa-regular fa-star"></i>
           </div>
-          <h4>ksh 600</h4>
+          <h4>ksh 700</h4>
           <a href="https://wa.link/ff3ebk"><i class="fa-solid fa-cart-shopping cart"></i></a>
         </div>
       </div>
@@ -736,8 +796,9 @@
       <p><strong>Hours:</strong> 9:00am -6:00pm, Mon-Sat</p>
       <div class="icon follow">
         <h4>Follow US</h4>
-        <a href="https://www.facebook.com/kanosevalast" class="fab fa-facebook-f"></a> 
-        <a href="https://www.instagram.com/evalast_the_future/?fbclid=IwAR3UtSkAcPlOMAoTY58qxGERv1aOB__SztycF1c6MJ7Dxoj1q56gg-WoFoU" class="fab fa-instagram"></a>
+        <a href="https://www.facebook.com/kanosevalast" class="fab fa-facebook-f"></a>
+        <a href="https://www.instagram.com/evalast_the_future/?fbclid=IwAR3UtSkAcPlOMAoTY58qxGERv1aOB__SztycF1c6MJ7Dxoj1q56gg-WoFoU"
+          class="fab fa-instagram"></a>
         <a href="https://www.tiktok.com/@evalast_sinoray_motors?lang=en" class="fab fa-tiktok"></a>
         <a href="https://www.youtube.com/@garagezero590/videos" class="fab fa-youtube"></a>
       </div>
@@ -776,7 +837,7 @@
     <a class="social" href="https://wa.link/ff3ebk"><i class="fa fa-whatsapp"></i></a>
     <a class="social" href="tel:+254714314360"> <i class="fa fa-phone"></i></a>
     <a class="close-button" href="#"> <i class="fa fa-close"></i></a>
-</div>
+  </div>
   <!-- ============================================================================================================ -->
   <script src="script.js"></script>
 </body>
