@@ -21,22 +21,30 @@
 
 <body>
     <header>
-        <a href="index.html" class="logo"><img src="img/logo1.png" alt="" class="logo" /></a>
+        <a href="index.html" class="logo"><img src="img/logo1.png" alt="" class="logo"></a>
         <nav>
             <ul id="navbar">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="shop.html">Shop</a></li>
-                <li><a href="blog.html">Blog</a></li>
+                <li><a href="index.html" class="active">Home</a></li>
+                <div class="dropdown">
+                    <button class="dropbtn">Shop
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="shop.html">All Categories</a>
+                        <a href="motorcycles.html">Motorcycles</a>
+                        <a href="safety.html">Helmets & Safety Gear</a>
+                        <a href="dash.html">Dashboards</a>
+                        <a href="muff.html">Mufflers</a>
+                        <a href="spare.html">Spare Parts</a>
+                    </div>
+                </div>
+                <li><a href="blog.html">News/Promotions</a></li>
                 <li><a href="about.html">About</a></li>
-                <li><a class="active" href="contact.html">Contact</a></li>
-                <li id="lg-bag">
-                    <a href="cart.html"><i class="fa fa-bag-shopping"></i></a>
-                </li>
+                <li><a href="contact.html">Contact</a></li>
                 <a href="#" id="close"><i class="fa-solid fa-xmark"></i></a>
             </ul>
         </nav>
         <div id="mobile">
-            <a href="cart.html"><i class="fa fa-bag-shopping"></i></a>
             <i id="bar" class="fas fa-outdent"></i>
         </div>
     </header>
@@ -78,7 +86,10 @@
             </div>
         </div>
         <div class="map">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15956.643943048251!2d37.0724205!3d-1.0400645!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f4e8dfb70cb6f%3A0x90de0e4c941650fe!2sEvalast%20Motor%20Cycles-Thika!5e0!3m2!1sen!2ske!4v1693395441629!5m2!1sen!2ske" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15956.643943048251!2d37.0724205!3d-1.0400645!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f4e8dfb70cb6f%3A0x90de0e4c941650fe!2sEvalast%20Motor%20Cycles-Thika!5e0!3m2!1sen!2ske!4v1693395441629!5m2!1sen!2ske"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
     </section>
     <!-- ===================== -->
@@ -144,8 +155,9 @@
             <p><strong>Hours:</strong> 10:00am -6:00pm, Mon -Sat</p>
             <div class="icon follow">
                 <h4>Follow US</h4>
-                <a href="https://www.facebook.com/kanosevalast" class="fab fa-facebook-f"></a> 
-                <a href="https://www.instagram.com/evalast_the_future/?fbclid=IwAR3UtSkAcPlOMAoTY58qxGERv1aOB__SztycF1c6MJ7Dxoj1q56gg-WoFoU" class="fab fa-instagram"></a>
+                <a href="https://www.facebook.com/kanosevalast" class="fab fa-facebook-f"></a>
+                <a href="https://www.instagram.com/evalast_the_future/?fbclid=IwAR3UtSkAcPlOMAoTY58qxGERv1aOB__SztycF1c6MJ7Dxoj1q56gg-WoFoU"
+                    class="fab fa-instagram"></a>
                 <a href="https://www.tiktok.com/@evalast_sinoray_motors?lang=en" class="fab fa-tiktok"></a>
                 <a href="https://www.youtube.com/@garagezero590/videos" class="fab fa-youtube"></a>
             </div>
