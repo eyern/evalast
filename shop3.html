@@ -21,25 +21,33 @@
 
 <body>
   <header>
-    <a href="index.html" class="logo"><img src="img/logo1.png" alt="" class="logo" /></a>
+    <a href="index.html" class="logo"><img src="img/logo1.png" alt="" class="logo"></a>
     <nav>
-      <ul id="navbar">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="shop.html" class="active">Shop</a></li>
-        <li><a href="blog.html">News/Promotions</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="contact.html">Contact</a></li>
-        <li id="lg-bag">
-          <a href="cart.html"><i class="fa fa-bag-shopping"></i></a>
-        </li>
-        <a href="#" id="close"><i class="fa-solid fa-xmark"></i></a>
-      </ul>
+        <ul id="navbar">
+            <li><a href="index.html" class="active">Home</a></li>
+            <div class="dropdown">
+                <button class="dropbtn">Shop 
+                  <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                  <a href="shop.html">All Categories</a>
+                  <a href="motorcycles.html">Motorcycles</a>
+                  <a href="safety.html">Helmets & Safety Gear</a>
+                  <a href="dash.html">Dashboards</a>
+                  <a href="muff.html">Mufflers</a>
+                  <a href="spare.html">Spare Parts</a>
+                </div>
+              </div>
+            <li><a href="blog.html">News/Promotions</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <a href="#" id="close"><i class="fa-solid fa-xmark"></i></a>
+        </ul>
     </nav>
     <div id="mobile">
-      <a href="cart.html"><i class="fa fa-bag-shopping"></i></a>
-      <i id="bar" class="fas fa-outdent"></i>
+        <i id="bar" class="fas fa-outdent"></i>
     </div>
-  </header>
+</header>
 
   <!-- ===================== -->
   <!--    P-Header Section   -->
@@ -48,8 +56,12 @@
   <section id="page-header">
     <h2>#shopfromhome</h2>
 
-    <p>Save up to 50% off!</p>
   </section>
+
+  <div class="search">
+    <h8>All Products</h8>
+    <input type="text" name="" id="find" placeholder="search products....." onkeyup="search()">
+    </div>
 
   <!-- ===================== -->
   <!--    Products Section   -->
@@ -68,7 +80,7 @@
             <i class="fas fa-star"></i>
             <i class="fa-solid fa-star-half-stroke"></i>
           </div>
-          <h4>ksh 1,500</h4>
+          <h4>ksh 1,600</h4>
           <a href="https://wa.link/ff3ebk"><i class="fa-solid fa-cart-shopping cart"></i></a>
         </div>
       </div>
@@ -455,6 +467,22 @@
           <h4>ksh 1,300</h4>
           <a href="https://wa.link/ff3ebk"><i class="fa-solid fa-cart-shopping cart"></i></a>
         </div>
+      </div>      
+      <div class="pro">
+        <img src="img/products/n128.jpg" alt="" />
+        <div class="des">
+          <span>in stock</span>
+          <h5>TYRE SEALANT</h5>
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+          <h4>ksh 200</h4>
+          <a href="https://wa.link/ff3ebk"><i class="fa-solid fa-cart-shopping cart"></i></a>
+        </div>
       </div>
       <div class="pro">
         <img src="img/products/n86.jpg" alt="" />
@@ -479,7 +507,7 @@
   <!-- ===================== -->
   <section id="paginition" class="section-p1">
     <a href="shop2.html"><i class="fa-solid fa-arrow-left"></i></a>
-    <a href="shop3.html">3</a>
+    <a href="/">3</a>
   </section>
   <!-- ===================== -->
   <!--   Newsletter    -->
