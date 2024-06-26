@@ -21,35 +21,47 @@
 
 <body>
   <header>
-    <a href="index.html" class="logo"><img src="img/logo1.png" alt="" class="logo" /></a>
+    <a href="index.html" class="logo"><img src="img/logo1.png" alt="" class="logo"></a>
     <nav>
-      <ul id="navbar">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="shop.html" class="active">Shop</a></li>
-        <li><a href="blog.html">News/Promotions</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="contact.html">Contact</a></li>
-        <li id="lg-bag">
-          <a href="cart.html"><i class="fa fa-bag-shopping"></i></a>
-        </li>
-        <a href="#" id="close"><i class="fa-solid fa-xmark"></i></a>
-      </ul>
+        <ul id="navbar">
+            <li><a href="index.html" class="active">Home</a></li>
+            <div class="dropdown">
+                <button class="dropbtn">Shop 
+                  <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                  <a href="shop.html">All Categories</a>
+                  <a href="motorcycles.html">Motorcycles</a>
+                  <a href="safety.html">Helmets & Safety Gear</a>
+                  <a href="dash.html">Dashboards</a>
+                  <a href="muff.html">Mufflers</a>
+                  <a href="spare.html">Spare Parts</a>
+                </div>
+              </div>
+            <li><a href="blog.html">News/Promotions</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <a href="#" id="close"><i class="fa-solid fa-xmark"></i></a>
+        </ul>
     </nav>
     <div id="mobile">
-      <a href="cart.html"><i class="fa fa-bag-shopping"></i></a>
-      <i id="bar" class="fas fa-outdent"></i>
+        <i id="bar" class="fas fa-outdent"></i>
     </div>
-  </header>
+</header>
 
   <!-- ===================== -->
   <!--    P-Header Section   -->
   <!-- ===================== -->
 
   <section id="page-header">
-    <h2>#shopfromhome</h2>
+    <h2>Shop</h2>
 
-    <p>Save up to 50% off!</p>
   </section>
+
+  <div class="search">
+    <h8>All Products</h8>
+    <input type="text" name="" id="find" placeholder="search products....." onkeyup="search()">
+    </div>
 
   <!-- ===================== -->
   <!--    Products Section   -->
@@ -148,7 +160,7 @@
             <i class="fas fa-star"></i>
             <i class="fa-solid fa-star-half-stroke"></i>
           </div>
-          <h4>ksh 4,500</h4>
+          <h4>ksh 5,000</h4>
           <a href="https://wa.link/ff3ebk"><i class="fa-solid fa-cart-shopping cart"></i></a>
         </div>
       </div>
@@ -164,7 +176,7 @@
             <i class="fa-regular fa-star"></i>
             <i class="fa-regular fa-star"></i>
           </div>
-          <h4>ksh 5,500</h4>
+          <h4>ksh 6,000</h4>
           <a href="https://wa.link/ff3ebk"><i class="fa-solid fa-cart-shopping cart"></i></a>
         </div>
       </div>
@@ -181,6 +193,22 @@
             <i class="fa-regular fa-star"></i>
           </div>
           <h4>ksh 2,800</h4>
+          <a href="https://wa.link/ff3ebk"><i class="fa-solid fa-cart-shopping cart"></i></a>
+        </div>
+      </div>
+      <div class="pro">
+        <img src="img/products/n 128.png" alt="" />
+        <div class="des">
+          <span>in stock</span>
+          <h5>FRONT SHOCK</h5>
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+          <h4>ksh 7000 </h4>
           <a href="https://wa.link/ff3ebk"><i class="fa-solid fa-cart-shopping cart"></i></a>
         </div>
       </div>
@@ -260,7 +288,7 @@
             <i class="fas fa-star"></i>
             <i class="fa-solid fa-star-half-stroke"></i>
           </div>
-          <h4>ksh 2000</h4>
+          <h4>ksh 2100</h4>
           <a href="https://wa.link/ff3ebk"><i class="fa-solid fa-cart-shopping cart"></i></a>
         </div>
       </div>
@@ -316,7 +344,7 @@
         <img src="img/products/n9.jpg" alt="" />
         <div class="des">
           <span>in stock</span>
-          <h5>IGNITION SET</h5>
+          <h5>IGNITION SET COMPLETE</h5>
           <div class="star">
             <i class="fas fa-star"></i>
             <i class="fas fa-star"></i>
@@ -324,7 +352,7 @@
             <i class="fa-regular fa-star"></i>
             <i class="fa-regular fa-star"></i>
           </div>
-          <h4>ksh 2,500</h4>
+          <h4>ksh 2,800</h4>
           <a href="https://wa.link/ff3ebk"><i class="fa-solid fa-cart-shopping cart"></i></a>
         </div>
       </div>
@@ -356,7 +384,7 @@
             <i class="fa-regular fa-star"></i>
             <i class="fa-regular fa-star"></i>
           </div>
-          <h4>ksh 6,000</h4>
+          <h4>ksh 7,000</h4>
           <a href="https://wa.link/ff3ebk"><i class="fa-solid fa-cart-shopping cart"></i></a>
         </div>
       </div>
@@ -452,7 +480,23 @@
             <i class="fa-regular fa-star"></i>
             <i class="fa-regular fa-star"></i>
           </div>
-          <h4>ksh 2,000</h4>
+          <h4>ksh 2,500</h4>
+          <a href="https://wa.link/ff3ebk"><i class="fa-solid fa-cart-shopping cart"></i></a>
+        </div>
+      </div>
+      <div class="pro">
+        <img src="img/products/n121.jpg" alt="" />
+        <div class="des">
+          <span>in stock</span>
+          <h5>REAR RIM </h5>
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+          <h4>ksh 7000 </h4>
           <a href="https://wa.link/ff3ebk"><i class="fa-solid fa-cart-shopping cart"></i></a>
         </div>
       </div>
@@ -501,6 +545,343 @@
             <i class="fa-regular fa-star"></i>
           </div>
           <h4>ksh 3,500</h4>
+          <a href="https://wa.link/ff3ebk"><i class="fa-solid fa-cart-shopping cart"></i></a>
+        </div>
+      </div>
+      <div class="pro">
+        <img src="img/products/n95.jpg" alt="" />
+        <div class="des">
+          <span>in stock</span>
+          <h5>COUNTER GEAR</h5>
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+          <h4>ksh 1000</h4>
+          <a href="https://wa.link/ff3ebk"><i class="fa-solid fa-cart-shopping cart"></i></a>
+        </div>
+      </div>
+      <div class="pro">
+        <img src="img/products/n96.jpg" alt="" />
+        <div class="des">
+          <span>in stock</span>
+          <h5>TIMING GEAR</h5>
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+          <h4>ksh 450</h4>
+          <a href="https://wa.link/ff3ebk"><i class="fa-solid fa-cart-shopping cart"></i></a>
+        </div>
+      </div>
+      <div class="pro">
+        <img src="img/products/n97.jpg" alt="" />
+        <div class="des">
+          <span>in stock</span>
+          <h5>TUPPET(FLASH)</h5>
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+          <h4>ksh 1,800</h4>
+          <a href="https://wa.link/ff3ebk"><i class="fa-solid fa-cart-shopping cart"></i></a>
+        </div>
+      </div> <div class="pro">
+        <img src="img/products/n125.jpg" alt="" />
+        <div class="des">
+          <span>in stock</span>
+          <h5>SYTHENTIC OIL</h5>
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+          <h4>ksh 1,150</h4>
+          <a href="https://wa.link/ff3ebk"><i class="fa-solid fa-cart-shopping cart"></i></a>
+        </div>
+      </div>
+
+      <div class="pro">
+        <img src="img/products/n99.jpg" alt="" />
+        <div class="des">
+          <span>in stock</span>
+          <h5>SEMI-DIGITAL DASHBOARD</h5>
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+          <h4>ksh 5,000</h4>
+          <a href="https://wa.link/ff3ebk"><i class="fa-solid fa-cart-shopping cart"></i></a>
+        </div>
+      </div>
+      <div class="pro">
+        <img src="img/products/n101.jpg" alt="" />
+        <div class="des">
+          <span>in stock</span>
+          <h5>OIL FILTER</h5>
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+          <h4>ksh 215</h4>
+          <a href="https://wa.link/ff3ebk"><i class="fa-solid fa-cart-shopping cart"></i></a>
+        </div>
+      </div>
+      <div class="pro">
+        <img src="img/products/n102.jpg" alt="" />
+        <div class="des">
+          <span>in stock</span>
+          <h5>CAMSHAFT</h5>
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+          <h4>ksh 1,800</h4>
+          <a href="https://wa.link/ff3ebk"><i class="fa-solid fa-cart-shopping cart"></i></a>
+        </div>
+      </div>
+      <div class="pro">
+        <img src="img/products/n126.png" alt="" />
+        <div class="des">
+          <span>in stock</span>
+          <h5>CHEST GUARD(RED)</h5>
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+          <h4>ksh 800</h4>
+          <a href="https://wa.link/ff3ebk"><i class="fa-solid fa-cart-shopping cart"></i></a>
+        </div>
+      </div>
+      <div class="pro">
+        <img src="img/products/n103.jpg" alt="" />
+        <div class="des">
+          <span>in stock</span>
+          <h5>CLUTCH PLATES</h5>
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+          <h4>ksh 1,500</h4>
+          <a href="https://wa.link/ff3ebk"><i class="fa-solid fa-cart-shopping cart"></i></a>
+        </div>
+      </div>
+      <div class="pro">
+        <img src="img/products/n127.png" alt="" />
+        <div class="des">
+          <span>in stock</span>
+          <h5>CHEST GUARD(BLUE)</h5>
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+          <h4>ksh 800</h4>
+          <a href="https://wa.link/ff3ebk"><i class="fa-solid fa-cart-shopping cart"></i></a>
+        </div>
+      </div>
+      <div class="pro">
+        <img src="img/products/n120 b.png" alt="" />
+        <div class="des">
+          <span>in stock</span>
+          <h5>OIL PUMP</h5>
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+          <h4>ksh 1,500</h4>
+          <a href="https://wa.link/ff3ebk"><i class="fa-solid fa-cart-shopping cart"></i></a>
+        </div>
+      </div>
+      
+      <div class="pro">
+        <img src="img/products/n104.jpg" alt="" />
+        <div class="des">
+          <span>in stock</span>
+          <h5>HANDLE GRIPS</h5>
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+          <h4>ksh 700</h4>
+          <a href="https://wa.link/ff3ebk"><i class="fa-solid fa-cart-shopping cart"></i></a>
+        </div>
+      </div>
+      <div class="pro">
+        <img src="img/products/n105.jpg" alt="" />
+        <div class="des">
+          <span>in stock</span>
+          <h5>MAGNETO DRUM</h5>
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+          <h4>ksh 3,500</h4>
+          <a href="https://wa.link/ff3ebk"><i class="fa-solid fa-cart-shopping cart"></i></a>
+        </div>
+      </div>
+      <div class="pro">
+        <img src="img/products/n106.jpg" alt="" />
+        <div class="des">
+          <span>in stock</span>
+          <h5>TIMING CHAIN(FLASH)</h5>
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+          <h4>ksh 1,500</h4>
+          <a href="https://wa.link/ff3ebk"><i class="fa-solid fa-cart-shopping cart"></i></a>
+        </div>
+      </div>
+      <div class="pro">
+        <img src="img/products/n107.jpg" alt="" />
+        <div class="des">
+          <span>in stock</span>
+          <h5>COMPLETE WIRING</h5>
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+          <h4>ksh 2,500</h4>
+          <a href="https://wa.link/ff3ebk"><i class="fa-solid fa-cart-shopping cart"></i></a>
+        </div>
+      </div>
+      <div class="pro">
+        <img src="img/products/n108.jpg" alt="" />
+        <div class="des">
+          <span>in stock</span>
+          <h5>SINORAY ENGINE</h5>
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+          <h4>ksh 58,000</h4>
+          <a href="https://wa.link/ff3ebk"><i class="fa-solid fa-cart-shopping cart"></i></a>
+        </div>
+      </div>
+      <div class="pro">
+        <img src="img/products/n109.jpg" alt="" />
+        <div class="des">
+          <span>in stock</span>
+          <h5>SITTING SPROCKET</h5>
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+          <h4>ksh 1,200</h4>
+          <a href="https://wa.link/ff3ebk"><i class="fa-solid fa-cart-shopping cart"></i></a>
+        </div>
+      </div>
+      <div class="pro">
+        <img src="img/products/n110.jpg" alt="" />
+        <div class="des">
+          <span>in stock</span>
+          <h5>BEARINGS</h5>
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+          <h4>ksh 250</h4>
+          <a href="https://wa.link/ff3ebk"><i class="fa-solid fa-cart-shopping cart"></i></a>
+        </div>
+      </div>
+      <div class="pro">
+        <img src="img/products/n111.jpg" alt="" />
+        <div class="des">
+          <span>in stock</span>
+          <h5>TANK CAP(ROUND)</h5>
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+          <h4>ksh 600</h4>
+          <a href="https://wa.link/ff3ebk"><i class="fa-solid fa-cart-shopping cart"></i></a>
+        </div>
+      </div>
+      <div class="pro">
+        <img src="img/products/n112.jpg" alt="" />
+        <div class="des">
+          <span>in stock</span>
+          <h5>TENSION RUBBER(FLASH)</h5>
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+          <h4>ksh 800</h4>
+          <a href="https://wa.link/ff3ebk"><i class="fa-solid fa-cart-shopping cart"></i></a>
+        </div>
+      </div>
+      <div class="pro">
+        <img src="img/products/n113.jpg" alt="" />
+        <div class="des">
+          <span>in stock</span>
+          <h5>DIGITAL DASHBOARD</h5>
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+          <h4>ksh 5,500</h4>
           <a href="https://wa.link/ff3ebk"><i class="fa-solid fa-cart-shopping cart"></i></a>
         </div>
       </div>
